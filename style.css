@@ -1,0 +1,283 @@
+:root {
+    --bg1: #2d2a2d;
+    --bg2: rgb(44, 42, 42);
+    --body: rgb(95, 86, 86);
+    --brand: #b83bf2;
+    --white: rgb(235, 235, 235);
+    --p: rgb(161, 150, 150);
+}
+
+.nav-link {
+    -webkit-text-fill-color: #FFF;
+}
+.navbar-brand {
+    -webkit-text-fill-color: #FFF;
+    margin-left: 50px;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--body);
+    line-height: 1.8;
+}
+
+section {
+    padding-top: 100px;
+}
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(img/peo-mothers-day-dresses-tout-2000-6cc7c64bb69b4d5b91a5e7f6fe5a2359.jpg);
+    background-size: cover;
+}
+
+h2 {
+    color: #b385c5;
+    /* Green color */
+}
+
+h3 {
+    color: #7736cc;
+    /* Orange color */
+}
+
+.btn {
+    padding: 10px 35px;
+    transition: all 0.4s ease;
+    font-weight: 600;
+    border-radius: 100px;
+    /* Rounded corners */
+}
+
+.btn-brand {
+    background-color: #b552b9;
+    /* Green color */
+    border-color: #000000;
+    /* Dark grey border */
+}
+
+.btn-brand:hover {
+    background-color: #0f9bb4;
+    /* Dark green color */
+    color: #FFF;
+    /* White text color */
+    border-color: #333;
+    /* Dark grey border */
+}
+
+section {
+    padding: 50px;
+}
+
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icon-img-box {
+    width: 50%;
+}
+
+.card {
+    transition: background-color 0.3s, 0.3s;
+    border-radius: 30PX;
+}
+
+.card:hover {
+    background-color: #5d85cf;
+    /* Yellow color on hover */
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #ffffff;
+    /* Blue color on hover */
+}
+
+.btn-outlined-brand {
+    background-color: transparent;
+    border-color: #af4c99;
+    /* Green color */
+    color: #af4c8e;
+    /* Green color */
+}
+
+.btn-outlined-brand:hover {
+    background-color: #4c56af;
+    /* Green color on hover */
+    border-color: #7a4caf;
+    /* Green color on hover */
+    color: #ffffff;
+    /* White text color on hover */
+}
+
+#cta {
+    background: linear-gradient(to right, hsla(176, 15%, 44%, 0.856), rgba(83, 54, 90, 0.315)), url(img/best-nordstrom-anniversary-sale-dresses-H-MAIN-2022.webp);
+    background-size: cover;
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#reviews {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(303, 41%, 43%, 0.856), rgba(168, 16, 238, 0.514)), url(moon.webp);
+    background-size: cover;
+}
+
+.testimonials {
+    background-color: #2e4b63;
+    /* Dark grey color */
+    padding: 30px;
+    border-radius: px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 50%;
+    /* Circle shape */
+    height: 65px;
+}
+
+#reviews a {
+    color: #8c00ff;
+    /* Orange color */
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .faq-item {
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+    border-radius: 0 !important;
+  }
+
+  .faq-question {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+  }
+
+  .faq-answer {
+    border-left: 3px solid var(--brand);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+  }
+
+  .faq-answer p {
+    margin-bottom: 0;
+  }
+
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: var(--bg1);
+  }
+
+  /* Hover effect for FAQ questions */
+  .faq-question:hover {
+    background-color: var(--brand); /* Change background color on hover */
+    color: var(--bg1); /* Change text color on hover */
+  }
+
+  /* Adjust accordion icon */
+  .accordion-button::after {
+    font-family: "Font Awesome 5 Free";
+    content: ""; /* Plus icon */
+    float: right;
+    font-weight: 900;
+    margin-left: auto;
+  }
+
+  .accordion-button[aria-expanded="true"]::after {
+    content: ""; /* Minus icon */
+    
+  }
+
+  #footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--bg1);
+}
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: var(--brand) ;
+}
+
+#reviews h2, #services h2 {
+    color: var(--bg1);
+}
+
+.btn-outline-light {
+    border-color: #a93bf2 !important;
+    color: #9f64c2;
+}
+
+#footer h5 {
+    color: var(--brand);
+    margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    h1 , h2 {
+        font-size: 45px;
+        text-align: center;
+    }
+    #banner p {
+        text-align: center;
+
+    }
+    .btn {
+        font-size: 14px !important;
+        padding: 18px 0px;
+        width: 180px;
+    }
+    section {
+        padding: 60px 10px;
+    }
+
+    #about h3, #about p {
+        text-align: center;
+    }
+
+   .card {
+    margin-bottom: 30px;
+   }
+
+   #cta h2 , #cta2 h2{
+    font-size: 35px;
+   }
+
+   #about:after {
+    display: none;
+   }
+
+   #footer {
+    padding: 50px 20px;
+   }
+
+   #about img {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+   }
+
+    
+}
