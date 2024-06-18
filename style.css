@@ -23,17 +23,11 @@ body {
 section {
     padding-top: 100px;
 }
-.nav-item {
-    color: #000000;
-}
-.navbar {
-    background: black;
-   background-size: 2px;
-}
+
 .navbar .nav-link:hover{
     color: var(--bg3) !important;
     padding: 10px 28px;
-    background-color: rgb(249, 95, 141);
+    background-color: rgb(218, 249, 95);
     border: 0px solid transparent;
     border-radius: 2px;
     font-size: 16px;
@@ -45,7 +39,7 @@ section {
     color: rgb(12, 11, 11);
     border-bottom: 2px solid rgba(233, 175, 15, 0.808);
     background-color: rgba(230, 38, 214, 0.555);
-
+    color: rgb(38, 9, 225);
 }
 
 #banner {
